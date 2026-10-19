@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear_fix {
+    clear: both;
+}
+
+body {
+    background-color: #242938;
+    margin: 0;
+    padding: 25px;
+}
+
+.container {
+    background-color: #f1f3f7;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: #194b7e;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header a,
+.contact a {
+    display: inline-block;
+    background-color: #315d87;
+    color: white;
+    padding: 7px;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.box {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.box h2,
+.contact h2 {
+    color: #194b7e;
+    font-size: 20px;
+}
+
+.my-photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.skills {
+    margin-bottom: 10px;
+}
+
+.skill {
+    background-color: #f6f8fc;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    width: 23%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.skill h3 {
+    color: #194b7e;
+    font-size: 15px;
+}
+
+.skill p {
+    font-size: 12px;
+}
+
+.experience {
+    background-color: #f6f8fc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.experience-img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.experience-info h3 {
+    color: #194b7e;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.experience-info p {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.contact {
+    background-color: #194b7e;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.contact h2,
+.contact p {
+    color: white;
+    font-size: 14px;
+}
+
+.contact a {
+    display: inline-block;
+    background-color: #315d87;
+    color: white;
+    padding: 7px;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.copyright {
+    background-color: #071b35;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
